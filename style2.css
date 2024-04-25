@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+}
+.logo{
+    width: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+.logo img{
+     width: 40%;
+     
+    ;
+
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.nav-list li{
+    list-style:none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+.rightnav{
+    width:30%;
+    text-align: right;
+    padding: 0 23px;
+     
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    max-width: 240px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.7) url('th.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100000;
+}
+.firstsection{
+    height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+    height: 80%;
+
+}
+.firsthalf{
+    width: 80% ;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    margin-right: 10%;
+}
+.secondhalf{
+    width: 70%;
+    margin-left: 60px;
+    margin-top: 5%;
+}
+.secondhalf img{
+    width: 100%;
+    display: block;
+
+}
+.text-big{
+    font-size: 41px;
+}
+.text-small{
+    font-size: 18;
+    margin-top: 10px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding:6px 10px;
+    vertical-align: middle;
+}
+#onebt{
+    margin-top: 5%;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-left{
+    flex-direction: row-reverse;
+    margin-top: -10%;
+     
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionsubtag{
+    font-family: 'Ubuntu', sans-serif;;
+}
+.section-three{
+    margin-top: -10%;
+}
+.thumbnail img{
+    border: 2px solid black;
+    border-radius: 26px;
+}
+.ctr{
+    background-color: rgb(255, 237, 201);
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-container {
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.search-form {
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 30%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 10%;
+  }
+  
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-item {
+    flex: 1;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* ... your existing CSS styles ... */
+
+.footer-credit {
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  
+
+  
+
+  
+ 
+
+
+  
+  
+  
+  
+ 
+
+
+
